@@ -1,0 +1,106 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.gradient-background {
+  background-image: url('/calculadoraIMC/imagens/saude4.png');
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+  width: 100%; /* Define a largura total */
+  height: 100vh; /* Define a altura como 100% da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #061def;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover {
+  background-color: #e57373; 
+}
+
+#resultado-container {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  padding: 0px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block !important;
+}
+
+.outer-container {
+    background: rgb(191, 7, 7); /* Cor de fundo */
+    padding: 15px; /* Espaçamento interno */
+	border-radius: 10px; /* Valor do raio do arredondamento */
+    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+}
+
+.social-icons {
+    color: white;
+	display: flex;
+    justify-content: space-around;
+    margin-top: 10px;;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;;
+}
+
+.social-icons a:visited {
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: rgb(87, 20, 169); 
+}
+
+footer {
+    background: rgb(5, 171, 82);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+	border-radius: 10px; 
+    overflow: hidden; 
+	
+}
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: green;
+	/*background-color: darkgrey;*/
+}
